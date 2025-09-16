@@ -1,10 +1,10 @@
 import React, { useState } from 'react'
-// import { useNavigate } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom'
 
 
 const Search = ({ onSearch }) => {
   const [query, setQuery] = useState("")
-// const nav=useNavigate();
+const nav=useNavigate();
   const handleSearch = () => {
     //  nav("/archives")
       onSearch(query)   
@@ -16,7 +16,7 @@ const Search = ({ onSearch }) => {
       <div className="p-4 bg-white shadow border rounded">
         <button
           className="w-full px-4 py-2 rounded bg-[#344d85] text-white font-semibold cursor-pointer"
-          onClick={() => { window.location.href = "/submissions" }}
+          onClick={() => { nav("/submissions") }}
         >
           Make a Submission
         </button>

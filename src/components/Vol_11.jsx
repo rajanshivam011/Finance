@@ -6,98 +6,42 @@ import Search from "./Search";
 const articlesData = [
   {
     title:
-      "THE JANUARY ANOMALY AND ANOMALIES IN JANUARY",
-    authors: "Steven Kozlowski, Alex Lytle",
-    pages: "2-10",
-    pdfUrl: "/vol-12/1.pdf",
+      "GPU PRICES AND CRYPTOCURRENCY RETURNS",
+    authors: "Linus Wilson",
+    pages: "2-8",
+    pdfUrl: "/vol-11/1.pdf",
   },
   {
     title:
-      "MEASURING VALUATION UNCERTAINTY: A PCA APPROACH",
-    authors: "John Garcia",
-    pages: "12-21",
-    pdfUrl: "/vol-12/2.pdf",
+      "ASYMMETRIC PRICING AND AIRLINE PERFORMANCE",
+    authors: "Yi Jiang, Tingting Que",
+    pages: "9-18",
+    pdfUrl: "/vol-11/2.pdf",
   },
   {
     title:
-      "EQUITY PLEDGE, PLEDGOR TYPE AND INVESTMENT EFFICIENCY",
-    authors: "Karren Lee-Hwei Khaw, Jiaying Chen, Muhammad Awais Gulzar, Ahmad Hakimi Tajuddin",
-    pages: "22-32",
-    pdfUrl: "/vol-12/3.pdf",
-  },
-  {
-    title:
-      "COVID-19: PERFORMANCE OF ESG ETFS AND, ESG ETFS VS. THEIR DECLARED INDEXES",
-    authors: "Huong Nguyen",
-    pages: "33-43",
-    pdfUrl: "/vol-12/4.pdf",
-  },
-  {
-    title:
-      "TOWARDS A SIMPLIFIED CAN SLIM MODEL",
-    authors: "Tarun Mukherjee, Matthew Lutey",
-    pages: "44-54",
-    pdfUrl: "/vol-12/5.pdf",
-  },
-  {
-    title:
-      "HIGH-FREQUENCY TRANSACTION DATA: A COMPARISON BETWEEN TWO ASYMMETRIC MODELS",
-    authors: "Michael Kunkler",
-    pages: "55-69",
-    pdfUrl: "/vol-12/6.pdf",
-  },
-   {
-    title:
-      "THE MARKET VALUE OF DECENTRALISATION",
+      "CREDIT DEFAULT SWAPS AND BANK SAFETY",
     authors: "Matt Brigida",
-    pages: "70-76",
-    pdfUrl: "/vol-12/7.pdf",
-  },
-   {
-    title:
-      "DOES LEVERAGE PAY OFF? THE CASE OF EQUITY-LEVERAGED MUTUAL FUNDS",
-    authors: "Javier Rodriguez, Herminio Romero",
-    pages: "77-86",
-    pdfUrl: "/vol-12/8.pdf",
+    pages: "19-27",
+    pdfUrl: "/vol-11/3.pdf",
   },
   {
     title:
-      "PRODUCTIVITY UNCERTAINTY AND STOCK PRICE CRASH RISK",
-    authors: "Huaibing Yu, Hanzhi Xu",
-    pages: "87-103",
-    pdfUrl: "/vol-12/9.pdf",
+      "IS THE BLACK–SCHOLES MODEL GOOD ENOUGH FOR RETAIL INVESTORS IN CHINA?",
+    authors: "Haoran Zhang",
+    pages: "28-35",
+    pdfUrl: "/vol-11/4.pdf",
   },
   {
     title:
-      "COUNTRY-SPECIFIC INVESTOR ATTENTION AND ADR MISPRICING",
-    authors: "Juan Gutierrez, Daniel Perez, Andre Vianna",
-    pages: "104-118",
-    pdfUrl: "/vol-12/10.pdf",
-  },
-  {
-    title:
-      "FUTURES PRICES LINKAGES IN THE US SOYBEAN COMPLEX",
-    authors: "Panos Fousekis",
-    pages: "119-130",
-    pdfUrl: "/vol-12/11.pdf",
-  },
-  {
-    title:
-      "PRICE CLUSTERING BEHAVIOR IN VIRTUAL REAL ESTATE MARKETS",
-    authors: "Bill Hu",
-    pages: "131-139",
-    pdfUrl: "/vol-12/12.pdf",
-  },
-  {
-    title:
-      "THE COMPETING-RISK ANALYSIS OF POST-IPO DELISTINGS",
-    authors: "Jun Chen, Ronald Rutherford, Peiming Wang",
-    pages: "140-158",
-    pdfUrl: "/vol-12/13.pdf",
+      "SOCIAL NETWORK AND THE DIFFUSION OF INVESTMENT BELIEFS: THEORETICAL EXPERIMENT AND THE CASES OF GAMESTOP SAGA",
+    authors: "Vu Ngo",
+    pages: "36-49",
+    pdfUrl: "/vol-11/5.pdf",
   },
 ];
 
-const Vol_12 = () => {
+const Vol_11 = () => {
   const [filteredArticles, setFilteredArticles] = useState(articlesData);
 
   const handleSearch = (query) => {
@@ -166,4 +110,4 @@ const Vol_12 = () => {
   );
 };
 
-export default Vol_12;
+export default Vol_11;
