@@ -5,7 +5,7 @@ const Header = () => {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
   const navigate = useNavigate();
-
+  const [open, setOpen] = useState(false);
   useEffect(() => {
     const token = localStorage.getItem("token");
     setIsLoggedIn(!!token);
@@ -100,37 +100,53 @@ const Header = () => {
             >
               Announcements
             </Link>
-            <div className="relative group">
-              <button className="px-4 py-2 rounded-lg text-gray-700 hover:text-white hover:bg-[#344d85] transition-colors duration-300 select-none w-full text-left lg:text-center">
-                About
-              </button>
-              <div className="absolute top-full left-0 mt-1 w-64 bg-white border rounded-lg shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50 lg:block">
-                <Link
-                  to="/about"
-                  className="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-700 transition-colors"
-                >
-                  About the Journal
-                </Link>
-                <Link
-                  to="/about"
-                  className="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-700 transition-colors"
-                >
-                  Publication Ethics and Publication Malpractice Statements
-                </Link>
-                <Link
-                  to="/submissions"
-                  className="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-700 transition-colors"
-                >
-                  Submissions
-                </Link>
-                <Link
-                  to="/contact"
-                  className="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-700 transition-colors"
-                >
-                  Contact
-                </Link>
-              </div>
-            </div>
+            <div className="relative lg:group">
+      {/* About Button */}
+      <button
+        onClick={() => setOpen(!open)}
+        className="px-4 py-2 rounded-lg text-gray-700 hover:text-white hover:bg-[#344d85] transition-colors duration-300 select-none"
+      >
+        About
+      </button>
+
+      {/* Dropdown Menu */}
+      <div
+        className={`
+          ${open ? "block" : "hidden"} 
+          lg:group-hover:block 
+          lg:absolute lg:top-full lg:left-0 
+          mt-1 lg:w-64 w-full 
+          bg-white border rounded-lg shadow-lg 
+          transition-all duration-200 z-50
+        `}
+      >
+        <Link
+          to="/about"
+          className="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-700 transition-colors"
+        >
+          About the Journal
+        </Link>
+        <Link
+          to="/about"
+          className="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-700 transition-colors"
+        >
+          Publication Ethics and Publication Malpractice Statements
+        </Link>
+        <Link
+          to="/submissions"
+          className="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-700 transition-colors"
+        >
+          Submissions
+        </Link>
+        <Link
+          to="/contact"
+          className="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-700 transition-colors"
+        >
+          Contact
+        </Link>
+      </div>
+    </div>
+
           </nav>
         </div>
       </div>
