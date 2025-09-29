@@ -20,6 +20,7 @@ const Header = () => {
   return (
     <header>
       {/* Top Right Login/Register or Logout */}
+      <div className="md:w-52 h-0 w-32"><img src="/Logo-1.svg" alt="ABDC Journal Quality List" /></div>
       <div className="flex flex-row justify-end gap-3 py-2 px-4">
         {!isLoggedIn ? (
           <>
