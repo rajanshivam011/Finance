@@ -2,27 +2,36 @@ import React from 'react'
 import Header from './Header'
 import Footer from './Footer'
 
-const articles = [
-  {
-    title: 'Effectiveness of Central Bank Swap Lines in Alleviating the Mispricing of FX Swaps at the Start of the COVID-19 Pandemic',
-    authors: 'Patty Duijm, Kai Schellekens',
-    pages: '1-20',
-    pdfUrl: '#'
-  },
-  {
-    title: 'ETF flows on volatility of NAV returns: Evidence from Chinese markets',
-    authors: 'Jiayuan Tian, Seungho Shin, Atsuyuki Naka',
-    pages: '21-32',
-    pdfUrl: '#'
-  },
-  {
-    title: 'Term Premium Estimates for Brazil in a Model with Survey Expectations',
-    authors: 'Adonias Evarusto da Costa Filho',
-    pages: '33-45',
-    pdfUrl: '#'
-  }
-]
+// const articles = [
+//   {
+//     title: 'Effectiveness of Central Bank Swap Lines in Alleviating the Mispricing of FX Swaps at the Start of the COVID-19 Pandemic',
+//     authors: 'Patty Duijm, Kai Schellekens',
+//     pages: '1-20',
+//     pdfUrl: '#'
+//   },
+//   {
+//     title: 'ETF flows on volatility of NAV returns: Evidence from Chinese markets',
+//     authors: 'Jiayuan Tian, Seungho Shin, Atsuyuki Naka',
+//     pages: '21-32',
+//     pdfUrl: '#'
+//   },
+//   {
+//     title: 'Term Premium Estimates for Brazil in a Model with Survey Expectations',
+//     authors: 'Adonias Evarusto da Costa Filho',
+//     pages: '33-45',
+//     pdfUrl: '#'
+//   }
+// ]
 
+const articles=[
+  { title: 'Recycling Domino as a Didactic Strategy for Learning Integrated Urban Waste Management', authors: 'Dajil Turizo, Yerine Zuley, Peláez Garizado, Lineis Maholis, Vallejo Ochoa, Ana Carolin, López López, Jimmy Henry (Author)', pages: '1-11', pdfUrl: '/Env/1.pdf' },
+  { title: 'Use Of Technology In Afro-Descendant Contexts: Improving The Quality Of Education', authors: 'Luz Mary Sierra, Ana Julia Bozo De Carmona (Author)', pages: '12-17', pdfUrl: '/Env/2.pdf' },  
+  { title: 'Traditional Utilization of Plants for Malaria Prevention and Treatment by The Sumba Tribe, East Nusa Tenggara', authors: 'Oktafina Mone, Purnomo, Abdul Razaq Chasani (Author)', pages: '18-33', pdfUrl: '/Env/3.pdf' },
+  { title: 'Optimum Use of Rainwater Harvesting Case Study: An Indonesian Fivestar-Hotel', authors: 'Wulandini, Haifa Al Kautsar, Djoko Sihono Gabriel (Author)', pages: '34-40', pdfUrl: '/Env/4.pdf' },  
+  { title: 'Modular Distance Learning and the Academic Performance of Young Learners in Cebu South', authors: 'Helen O. Revalde (Author)', pages: '41-52', pdfUrl: '/Env/5.pdf' },
+  { title: 'Automated Image Recognition of Staminate and Pistillate Flowers in Cucurbit Crops for Precision Pollination and Growth Management', authors: 'Kuo-Dung Chiou, Shin-Hau Chiou, Yi-Zhen Chen, Yu-Shen Liang, Chia-Ying Chang (Author)', pages: '53-59', pdfUrl: '/Env/6.pdf' },  
+
+]
 const Current = () => {
   return (
 

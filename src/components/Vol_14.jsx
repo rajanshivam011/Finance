@@ -6,38 +6,58 @@ import Search from "./Search";
 const articlesData = [
   {
     title:
-      "Effectiveness of Central Bank Swap Lines in Alleviating the Mispricing of FX Swaps at the Start of the COVID-19 Pandemic",
-    authors: "Patty Duijm, Kai Schellekens",
-    pages: "1-20",
-    pdfUrl: "/1.pdf",
+     "Sustainable Housing And Social Equity In Rapidly Urbanizing Regions",
+    authors: "Dr. Franklin John Selvaraj, Dr. Rishi, Dr. Sunanda I. Kittali, Dr. Saurabh Chandra, Sreedevi, Akansh Garg (Author)",
+    pages: "1-10",
+    pdfUrl: "/vol-14/1.pdf",
   },
   {
     title:
-      "ETF flows on volatility of NAV returns: Evidence from Chinese markets",
-    authors: "Jiayuan Tian, Seungho Shin, Atsuyuki Naka",
-    pages: "21-32",
-    pdfUrl: "/2.pdf",
+      "Tribological Properties and Biocompatibility Studies of PEEK and Its Composites",
+    authors: "Moinuddin S K, Syed Zameer, Kotresh U, Kari Ramakrishna, Mohammed Mohsin Ali H (Author)",
+    pages: "1312-1328",
+    pdfUrl: "/vol-14/2.pdf",
   },
   {
     title:
-      "Term Premium Estimates for Brazil in a Model with Survey Expectations",
-    authors: "Adonias Evarusto da Costa Filho",
-    pages: "33-45",
-    pdfUrl: "/3.pdf",
+      "Chemical Profiling, Antioxidant Potential, Molecular Docking And Molecular Dynamic Simulation Of Essential Oil Constituents Of Four Curcuma Species",
+    authors: "Ayushman Gadnayak, Ananya Nayak, Swagat Mohanty, Ambika Sahoo, Sudipta Jena, Pratap Chandra Panda, Asit Ray, Sanghamitra Nayak (Author)",
+    pages: "1329-1341",
+    pdfUrl: "/vol-14/3.pdf",
   },
   {
     title:
-      "Market Sentiment and Stock Splits Differential Impacts in High and Low Sentiment Regimes",
-    authors: "Jitka Hilliard, Haoran Zhang",
-    pages: "46-57",
-    pdfUrl: "/4.pdf",
+      "Hooked on Hearts: The Role of Social Media Validation in Behavioral Addiction",
+    authors: "Payal Jain, Tehseen Saleem (Author)",
+    pages: "1342-1348",
+    pdfUrl: "/vol-14/4.pdf",
   },
   {
     title:
-      "Impacts of Financial Knowledge and Health on Household Savings Behavior:  Evidence from the U.S. Survey of Consumer Finances",
-    authors: "Lena Gan, Sara Kay",
-    pages: "58-79",
-    pdfUrl: "/5.pdf",
+      "A Study On The Effects Of Social Pressure And Personal Control On E-Commerce Adoption",
+    authors: "Ms. Shakti Shukla, Deepti Mehlawat, Dr Anita Singh, Dr Anubha Vashisht, Dr Uma (Author)",
+    pages: "1349-1357",
+    pdfUrl: "/vol-14/5.pdf",
+  },
+  {
+    title:
+      "A Prospective Comparative Study Of Proximal Femoral Nailing And Bipolar Hemiarthroplasty In Comminuted Intertrochanteric Fractures",
+    authors: "Dr. Chethan Gowda M, Dr. Mahesh D V, Dr.Rajeevratna Suresh Naik, Dr. Vineeth K S (Author)",
+    pages: "1358-1363",
+    pdfUrl: "/vol-14/6.pdf",
+  },
+  {
+    title:
+    "Study The Efficacy of Chatuhsama Yoga in Ama Atisara in Children",
+    authors: "Dr. Sneha Solapure, Dr. Preetham pai (Author)",
+    pages: "1358-1363",
+    pdfUrl: "/vol-14/7.pdf",
+  },
+  {
+    title:"An Observational Study on the Therapeutic Application of Raktamokshana by Ayurvedic Practitioners in Pune City",
+    authors: "Dr. Shrutee Diliprao Lad, Dr. Madhuri P. Bhide, Dr. Swapnil J. Biradar Patil (Author)",
+    pages: "1364-1369",
+    pdfUrl: "/vol-14/8.pdf",
   },
 ];
 

@@ -49,13 +49,13 @@ const Header = () => {
 
       {/* Logo */}
       < div className="max-w-[1100px] mx-auto flex items-center justify-between py-4 px-4">
-        <Link to="/" className="flex items-center gap-3">
+        {/* <Link to="/" className="flex items-center gap-3">
           <img
             src="/logo.jpg"
             alt="Page Header Logo"
             className="h-16 sm:h-20 md:h-100 w-auto object-contain"
           />
-        </Link>
+        </Link> */}
 
 
         {/* Hamburger button for mobile */}
@@ -77,6 +77,7 @@ const Header = () => {
       >
         <div className="max-w-[1100px] mx-auto py-4 lg:flex justify-center px-4 lg:px-0">
           <nav className="flex flex-col lg:flex-row gap-2 lg:gap-10 text-base font-medium">
+            <Link to="/" className="px-4 py-2 rounded-lg text-gray-700 hover:text-white hover:bg-[#344d85] transition-colors duration-300 select-none"> Home</Link>
             <Link
               to="/editorial-team"
               className="px-4 py-2 rounded-lg text-gray-700 hover:text-white hover:bg-[#344d85] transition-colors duration-300 select-none"

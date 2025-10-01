@@ -6,95 +6,95 @@ import Search from "./Search";
 const articlesData = [
   {
     title:
-      "THE JANUARY ANOMALY AND ANOMALIES IN JANUARY",
-    authors: "Steven Kozlowski, Alex Lytle",
-    pages: "2-10",
+      "The Impact Of Digital Transformation On The Development Of Logistic Service: A Case Study Of Pt Sindu Wahana Berkah",
+    authors: "Bagas Muhammad Habibie, Ratih Hendayani (Author)",
+    pages: "1-14",
     pdfUrl: "/vol-12/1.pdf",
   },
   {
     title:
-      "MEASURING VALUATION UNCERTAINTY: A PCA APPROACH",
-    authors: "John Garcia",
-    pages: "12-21",
+      "A Measurement Tool For Purchase Intention And Its Factors In Environmental And Marketing Contexts",
+    authors: "Saskia Tami Auziawati, Indrawati (Author)",
+    pages: "15-21",
     pdfUrl: "/vol-12/2.pdf",
   },
   {
     title:
-      "EQUITY PLEDGE, PLEDGOR TYPE AND INVESTMENT EFFICIENCY",
-    authors: "Karren Lee-Hwei Khaw, Jiaying Chen, Muhammad Awais Gulzar, Ahmad Hakimi Tajuddin",
-    pages: "22-32",
+      "A NOVEL HYBRID CNN-LSTM FRAMEWORK FOR PREDICTING ALZHEIMER’S PROGRESSION USING SMART IOT SENSORS",
+    authors: "MANOJ KUMAR BEURIA, DR JITENDER TANWAR, ALOK KAPIL, VALIVETI DATTATREYA, MRS. THOKALA SRIVALLI, DR. KRITI SRIVASTAVA (Author)",
+    pages: "34-43",
     pdfUrl: "/vol-12/3.pdf",
   },
   {
     title:
-      "COVID-19: PERFORMANCE OF ESG ETFS AND, ESG ETFS VS. THEIR DECLARED INDEXES",
-    authors: "Huong Nguyen",
-    pages: "33-43",
+      "A Study To Assess Level of Visual Acuity(VA) among patients with Type-II Diabetes Mellitus in selected villages under Rural Heath and Training Centre, Vayalanallur",
+    authors: "Dr. Poongodi Ramalingam, M. Sumathi, Dr. Aruna Subramaniam (Author)",
+    pages: "44-49",
     pdfUrl: "/vol-12/4.pdf",
   },
   {
     title:
-      "TOWARDS A SIMPLIFIED CAN SLIM MODEL",
-    authors: "Tarun Mukherjee, Matthew Lutey",
-    pages: "44-54",
+      "Audit Quality and Financial Reporting Fraud: The Interaction of Standards, Governance, and Managerial Integrity",
+    authors: "Payamta, Agus Dwianto, Gehad Mohammed Sultan Saif (Author)",
+    pages: "50-64",
     pdfUrl: "/vol-12/5.pdf",
   },
   {
     title:
-      "HIGH-FREQUENCY TRANSACTION DATA: A COMPARISON BETWEEN TWO ASYMMETRIC MODELS",
-    authors: "Michael Kunkler",
-    pages: "55-69",
+      "Green Computing: Advancing Energy-Efficient Data Centers With AI",
+    authors: "M Rambabu, Dr. Kunchanapalli Rama Krishna, Dr Mano Ashish Tripathi, Jyoti Kataria, Priyanka Srivastava, Ajay Dixit (Author)",
+    pages: "65-74",
     pdfUrl: "/vol-12/6.pdf",
   },
    {
     title:
-      "THE MARKET VALUE OF DECENTRALISATION",
-    authors: "Matt Brigida",
-    pages: "70-76",
+      "Federated Learning and Cryptography: A Secure Framework for IoT Data Privacy",
+    authors: "Shashi Raj K, Dr. M.Manicka Raja, Ch G V N Prasad, Mallareddy Adudhodla, Shashank Shekhar Tiwari, Dr.Gaganjot Kaur (Author)",
+    pages: "75-81",
     pdfUrl: "/vol-12/7.pdf",
   },
    {
     title:
-      "DOES LEVERAGE PAY OFF? THE CASE OF EQUITY-LEVERAGED MUTUAL FUNDS",
-    authors: "Javier Rodriguez, Herminio Romero",
-    pages: "77-86",
+      "Performance Study On Inverted Anaerobic Sludge Blanket Reactor For High Fat Content Wastewater",
+    authors: "Mr. V. Karthikeyan, Dr. N. Ashokkumar (Author)",
+    pages: "82-91",
     pdfUrl: "/vol-12/8.pdf",
   },
   {
     title:
-      "PRODUCTIVITY UNCERTAINTY AND STOCK PRICE CRASH RISK",
-    authors: "Huaibing Yu, Hanzhi Xu",
-    pages: "87-103",
+      "Surviving Through Identity Shift: An Expression Of Complicated Grief In Colson Whitehead’s The Nickel Boys",
+    authors: "Ms. Jemima Joshuin T, Dr. G. Arul Selvi Mariya (Author)",
+    pages: "92-97",
     pdfUrl: "/vol-12/9.pdf",
   },
   {
     title:
-      "COUNTRY-SPECIFIC INVESTOR ATTENTION AND ADR MISPRICING",
-    authors: "Juan Gutierrez, Daniel Perez, Andre Vianna",
-    pages: "104-118",
+      "Synergistic Effect of Cacao Extract and Pregabalin on TNF-α and ERK MAPK Expression in a Rat Model of Neuropathic Pain",
+    authors: "Mario Alexander Suyadi, Herdiani Sulistyo Putri, Prananda Surya Airlangga, Maulydia, Christrijogo Sumartono W., Mahmudah (Author)",
+    pages: "98-114",
     pdfUrl: "/vol-12/10.pdf",
   },
   {
     title:
-      "FUTURES PRICES LINKAGES IN THE US SOYBEAN COMPLEX",
-    authors: "Panos Fousekis",
-    pages: "119-130",
+      "Reviewing the socioeconomic status of women collective groups",
+    authors: "Pushp Gautam, Simran Malik, Sanjay Bhayana (Author)",
+    pages: "115-122",
     pdfUrl: "/vol-12/11.pdf",
   },
-  {
-    title:
-      "PRICE CLUSTERING BEHAVIOR IN VIRTUAL REAL ESTATE MARKETS",
-    authors: "Bill Hu",
-    pages: "131-139",
-    pdfUrl: "/vol-12/12.pdf",
-  },
-  {
-    title:
-      "THE COMPETING-RISK ANALYSIS OF POST-IPO DELISTINGS",
-    authors: "Jun Chen, Ronald Rutherford, Peiming Wang",
-    pages: "140-158",
-    pdfUrl: "/vol-12/13.pdf",
-  },
+  // {
+  //   title:
+  //     "PRICE CLUSTERING BEHAVIOR IN VIRTUAL REAL ESTATE MARKETS",
+  //   authors: "Bill Hu",
+  //   pages: "131-139",
+  //   pdfUrl: "/vol-12/12.pdf",
+  // },
+  // {
+  //   title:
+  //     "THE COMPETING-RISK ANALYSIS OF POST-IPO DELISTINGS",
+  //   authors: "Jun Chen, Ronald Rutherford, Peiming Wang",
+  //   pages: "140-158",
+  //   pdfUrl: "/vol-12/13.pdf",
+  // },
 ];
 
 const Vol_12 = () => {
@@ -113,7 +113,7 @@ const Vol_12 = () => {
       <main className="py-8">
         <div className="max-w-[1100px] mx-auto grid grid-cols-1 lg:grid-cols-3 gap-8">
           <div className="lg:col-span-2">
-            <h1 className="text-3xl font-bold">Vol. 14 (2025)</h1>
+            <h1 className="text-3xl font-bold">Vol. 12 (2025)</h1>
             <p className="mt-2 text-sm">
               <span className="font-semibold">Published:</span> 2025-05-21
             </p>

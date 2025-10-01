@@ -6,37 +6,37 @@ import Search from "./Search";
 const articlesData = [
   {
     title:
-      "GPU PRICES AND CRYPTOCURRENCY RETURNS",
-    authors: "Linus Wilson",
-    pages: "2-8",
+      "“Ethical Ai Through Bias Mitigation In Large Language Models: A Review”",
+    authors: "Anindita Chakraborty,, Sampurna Mandal,, Suvojit Mukhopadhyay, , Tiyasa Saha, , Durjay Barman, , Partha Sarothi Roy, Gulshan Kumar Sinha (Author)",
+    pages: "1-6",
     pdfUrl: "/vol-11/1.pdf",
   },
   {
     title:
-      "ASYMMETRIC PRICING AND AIRLINE PERFORMANCE",
-    authors: "Yi Jiang, Tingting Que",
-    pages: "9-18",
+      "Performance Evaluation Of Aac Blocks Incorporating Gsa And Foundry Waste As Partial Replacements",
+    authors: "Adnya Manjarekar, Pranav Balasaheb Bagal (Author)",
+    pages: "7-12",
     pdfUrl: "/vol-11/2.pdf",
   },
   {
     title:
-      "CREDIT DEFAULT SWAPS AND BANK SAFETY",
-    authors: "Matt Brigida",
-    pages: "19-27",
+      "Experimental Evaluation Of Flexural Response In Steel Fiber Enhanced High Performance Concrete Beams",
+    authors: "Swapneel Satone, Dr. K.V. Boobala Krishnan, Dr. M . Palanisamy, K. Jeevanandan, Dr. Prasoon P P, Y.Dasthagir (Author)",
+    pages: "13-18",
     pdfUrl: "/vol-11/3.pdf",
   },
   {
     title:
-      "IS THE BLACK–SCHOLES MODEL GOOD ENOUGH FOR RETAIL INVESTORS IN CHINA?",
-    authors: "Haoran Zhang",
-    pages: "28-35",
+      "Degenerative Cervical Myelopathy: A Literature Review",
+    authors: "Mohammed Khaled M. Ahmed, Elsayed Said, Hamdy Tammam (Author)",
+    pages: "19-25",
     pdfUrl: "/vol-11/4.pdf",
   },
   {
     title:
-      "SOCIAL NETWORK AND THE DIFFUSION OF INVESTMENT BELIEFS: THEORETICAL EXPERIMENT AND THE CASES OF GAMESTOP SAGA",
-    authors: "Vu Ngo",
-    pages: "36-49",
+      "A Review On The Plant Containing Medicinal Important Glycyrrhizin",
+    authors: "Anand mahalwar, Nishi sadaphal (Author)",
+    pages: "26-30",
     pdfUrl: "/vol-11/5.pdf",
   },
 ];

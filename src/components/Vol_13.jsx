@@ -5,130 +5,130 @@ import Search from "./Search";
 const articlesData = [
   {
     title:
-      "IMPACTS OF RISK PREFERENCE AND SOCIAL INSURANCE ON HOUSEHOLD FINANCIAL MARKET PARTICIPATION IN CHINA: ARE THERE DIFFERENCES BETWEEN URBAN AND RURAL RESIDENTS?",
-    authors: "Wei Yang, Zhaohua Li, Le Wang",
-    pages: "2-13",
+      "Building Organizational Capacity For Rural Enterprise Management: A Study Of Government Agency Performance In Indonesia",
+    authors: "Sitti Hadijah, Nurdin Nara (Author)",
+    pages: "697-704",
     pdfUrl: "/vol-13/1.pdf",
   },
   {
     title:
-      "The INVESTIGATION OF ASYMMETRIC DYNAMICS OF BORSA ISTANBUL INDEX WITH QUANTILE UNIT ROOT TEST",
-    authors: "Müge Özdemir",
-    pages: "14-27",
+      "The Impact Of Air And Noise Pollution On Honeybee (Apis Mellifera L.) Productivity Across Multiple Habitats",
+    authors: "Maryam Ahmed Hussein, Dereen Jaladat Mustafa, Bayan Hazim Ahmed (Author)",
+    pages: "705-710",
     pdfUrl: "/vol-13/2.pdf",
   },
   {
     title:
-      "FUNDING AND OVERFUNDING PHENOMENA IN CROWDFUNDING: RELEVANCE OF PLATFORM CHOICE AND VARYING INDUSTRY DYNAMICS",
-    authors: "Dominika Galkiewicz, Michal Galkiewicz",
-    pages: "28-47",
+      "Do Green Practices Drive Firm Value In The Energy And Mining Sector",
+    authors: "Rasyid Ridha Kurniawan, Rahmawati, Siti Rochmah Ika, Nindyo Cahyo Kresnanto, Ari Kuncara Widagdo, Junaid M. Shaikh, Agus Dwianto (Author)",
+    pages: "711-714",
     pdfUrl: "/vol-13/3.pdf",
   },
   {
     title:
-      "GEOPOLITICS, UNCERTAINTY, AND CRYPTOCURRENCY: A LOVE TRIANGLE GONE WRONG",
-    authors: "Leila Dagher, Amar Rao, Dagar Vishal, Olatunji Shobande",
-    pages: "48-62",
+      "A Review of Accident Prevention Strategies in Hazardous Industrial Operations",
+    authors: "Dr Mohd Zafar shaikh (Author)",
+    pages: "715-721",
     pdfUrl: "/vol-13/4.pdf",
   },
   {
     title:
-      "THE INFORMATIONAL ROLE OF THE LOAN ONLY CREDIT DEFAULT INDEX (LCDX) ON THE PRICING OF SYNDICATED LOANS",
-    authors: "Zagdbazar Davaadorj, Jorge Brusa",
-    pages: "63-76",
+      "Assessment Of Fetal Lung Maturity Using Pulmonary Artery Doppler Indices: A Review Article",
+    authors: "Mohamad Abdelrahman Mohamad, Ahmed Abdelrady Ali, Ahmed Hashem Abdellah, Mahmoud Ibraheem Elmolakab bel Elrashidy, Nagwan ibrahim Rashwan (Author)",
+    pages: "722-735",
     pdfUrl: "/vol-13/5.pdf",
   },
   {
     title:
-      "INFECTIOUS DISEASE AND ASYMMETRIC INDUSTRIAL VOLATILITY",
-    authors: "Muhammad Tahir Suleman Suleman, Burcu Kapar, Faisal Rana",
-    pages: "77-97",
+      "Quality By Design Driven, Development And Assessment Of A Nanoemulsion Based Gel Comprising Of Fenticonazole Nitrate And Clary Sage Oil Loaded For The Effective Treatment Of Fungal Infections",
+    authors: "Het Solanki, Punit B. Parejiya, Sainika Rathod, Kanti Paregi, Lata Panchal, Divyang Dave (Author)",
+    pages: "736-749",
     pdfUrl: "/vol-13/6.pdf",
   },
   {
     title:
-      "PERFORMANCE AND TRACKING EFFICIENCY OF COMMODITY ETFS IN THE UK",
-    authors: "GERASIMOS ROMPOTIS",
-    pages: "98-109",
+      "Development And Optimization Of Gold Nanoparticle Synthesis From Bauhinia Purpurea Extracts",
+    authors: "A. Meena, R. Senthilraj (Author)",
+    pages: "750-764",
     pdfUrl: "/vol-13/7.pdf",
   },
   {
     title:
-      "RESILIENCE OF ORGANISATION CAPITAL ON FIRMS’ PERFORMANCE AMID CRISIS",
-    authors: "Li Xian Liu, Zhiyue Sun",
-    pages: "110-127",
+      "Structural Health Monitoring Of RCC Structure By Internet Of Things",
+    authors: "Malay Dipak bhai Shukla (Translator); Dr. Sanjay Joshi (Author)",
+    pages: "765-774",
     pdfUrl: "/vol-13/8.pdf",
   },
   {
     title:
-      "THE EFFECTS OF LOCAL SHAREHOLDERS ON FIRM PERFORMANCE: EVIDENCE FROM CORPORATE SOCIAL RESPONSIBILITY",
-    authors: "Hyoseok (David) Hwang, Hyun Gon Kim",
-    pages: "128-143",
+      "Emerging Therapeutic Approach For The Prevention And Reversal Of Muscle Atrophy",
+    authors: "Priyanka Prajapati (Author)",
+    pages: "778-787",
     pdfUrl: "/vol-13/9.pdf",
   },
    {
     title:
-      "THE IMPACT OF SOCIAL MEDIA PRESENCE, RESPONSE TIME, CORPORATE ACTIONS ON THE STOCK MARKET: EVIDENCE FROM THE RUSSIA–UKRAINE WAR",
-    authors: "Vinayaka Gude, Daniel Hsiao",
-    pages: "144-157",
+      "Impact OF Lifestyle Modifications ON Menstrual Irregularities",
+    authors: "Gagandeep Kaur, Dr. Ashwini Ramchandra Metangale, Saumya Srivastava, Dr. Mamellapalli Radhika, Basavaraj Mudhol, Gangadhar Bareddy, Lazar Veparala (Author)",
+    pages: "788-798",
     pdfUrl: "/vol-13/10.pdf",
   },
    {
     title:
-      "POWER OF CSAD-BASED TEST ON HERDING BEHAVIOR",
-    authors: "Haoran Zhang",
-    pages: "158-167",
+      "MSME Finance: An Empirical Study On Policy Reforms, Cash Flow Based Lending, And Digital Solutions",
+    authors: "Mr. Praveen Sharma, Dr. Rashmi Sharma (Author)",
+    pages: "799-810",
     pdfUrl: "/vol-13/11.pdf",
   },
    {
     title:
-      "EVALUATING STOCK SELECTION IN THE SAAS INDUSTRY: THE EFFECTIVENESS OF THE RULE OF 40",
-    authors: "King Fuei Lee",
-    pages: "168-185",
+      "The Use Of Advanced Imaging Techniques In Diagnosing Equine Musculoskeletal Disorders",
+    authors: "Dr. Souvik Sur, Dr. Pradeep Kumar Dohare, Dr. Kalyani Tiwari, Dr. S. Padmavathi, Dr Sukanta Bandyopadhyay, Aryantika Sharma (Author)",
+    pages: "811-817",
     pdfUrl: "/vol-13/12.pdf",
   },
-  {
-    title:
-      "INDEPENDENT DIRECTORS AND FIRM VALUE: NEW EVIDENCE FROM THE 2023 REGULATORY REFORM IN CHINA",
-    authors: "Anqi Jiao, Ran Sun, Juntai Lu",
-    pages: "186-200",
-    pdfUrl: "/vol-13/13.pdf",
-  },
-  {
-    title:
-      "CEO GENDER AND FIRM PERFORMANCE: EVIDENCE FROM THE COVID-19 PANDEMIC",
-    authors: "Georgios Koimisis, Christos Giannikos, Jun Lou",
-    pages: "201-212",
-    pdfUrl: "/vol-13/14.pdf",
-  },
-  {
-    title:
-      "DRIVERS OF PROFIT CONVERGENCE IN EURO AREA BANKS",
-    authors: "Hélène Bruffaerts, Rudi Vander Vennet",
-    pages: "213-222",
-    pdfUrl: "/vol-13/15.pdf",
-  },
-  {
-    title:
-      "OIL VOLATILITY-OF-VOLATILITY AND TAIL RISK OF COMMODITIES",
-    authors: "Yahua Xu, Alireza Tourani-Rad, Tai-Yong Roh",
-    pages: "223-236",
-    pdfUrl: "/vol-13/16.pdf",
-  },
-  {
-    title:
-      "INTEREST RATE HIKE AND THE INSTABILITY IN THE U.S. BANKING INDUSTRY",
-    authors: "Huong Le, Lai Vo",
-    pages: "237-250",
-    pdfUrl: "/vol-13/17.pdf",
-  },
-  {
-    title:
-      "CLIMATE RISK AND THE PREDICTABILITY OF JUMPS IN GREEN ASSETS",
-    authors: "Riza Demirer, Tina Prodromou",
-    pages: "251-266",
-    pdfUrl: "/vol-13/18.pdf",
-  },
+  // {
+  //   title:
+  //     "INDEPENDENT DIRECTORS AND FIRM VALUE: NEW EVIDENCE FROM THE 2023 REGULATORY REFORM IN CHINA",
+  //   authors: "Anqi Jiao, Ran Sun, Juntai Lu",
+  //   pages: "186-200",
+  //   pdfUrl: "/vol-13/13.pdf",
+  // },
+  // {
+  //   title:
+  //     "CEO GENDER AND FIRM PERFORMANCE: EVIDENCE FROM THE COVID-19 PANDEMIC",
+  //   authors: "Georgios Koimisis, Christos Giannikos, Jun Lou",
+  //   pages: "201-212",
+  //   pdfUrl: "/vol-13/14.pdf",
+  // },
+  // {
+  //   title:
+  //     "DRIVERS OF PROFIT CONVERGENCE IN EURO AREA BANKS",
+  //   authors: "Hélène Bruffaerts, Rudi Vander Vennet",
+  //   pages: "213-222",
+  //   pdfUrl: "/vol-13/15.pdf",
+  // },
+  // {
+  //   title:
+  //     "OIL VOLATILITY-OF-VOLATILITY AND TAIL RISK OF COMMODITIES",
+  //   authors: "Yahua Xu, Alireza Tourani-Rad, Tai-Yong Roh",
+  //   pages: "223-236",
+  //   pdfUrl: "/vol-13/16.pdf",
+  // },
+  // {
+  //   title:
+  //     "INTEREST RATE HIKE AND THE INSTABILITY IN THE U.S. BANKING INDUSTRY",
+  //   authors: "Huong Le, Lai Vo",
+  //   pages: "237-250",
+  //   pdfUrl: "/vol-13/17.pdf",
+  // },
+  // {
+  //   title:
+  //     "CLIMATE RISK AND THE PREDICTABILITY OF JUMPS IN GREEN ASSETS",
+  //   authors: "Riza Demirer, Tina Prodromou",
+  //   pages: "251-266",
+  //   pdfUrl: "/vol-13/18.pdf",
+  // },
 ];
 const Vol_13 = () => {
     const [filteredArticles, setFilteredArticles] = useState(articlesData);
