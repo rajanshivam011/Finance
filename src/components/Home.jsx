@@ -28,7 +28,7 @@ const Home = () => {
             </div>
 
             <aside className="lg:col-span-1 space-y-6">
-              <Search/>
+              <Search onSearch={()=>{navigator('/current')}}/>
             </aside>
           </div>
         </section>

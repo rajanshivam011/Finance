@@ -1,6 +1,7 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Header from './Header'
 import Footer from './Footer'
+import Search from './Search'
 
 // const articles = [
 //   {
@@ -33,6 +34,15 @@ const articles=[
 
 ]
 const Current = () => {
+  const [filteredArticles, setFilteredArticles] = useState(articles);
+  
+    const handleSearch = (query) => {
+      const results = articles.filter((a) =>
+        a.title.toLowerCase().includes(query.toLowerCase())
+      );
+      setFilteredArticles(results);
+    };
+  
   return (
 
     <>
@@ -50,38 +60,36 @@ const Current = () => {
               </div>
 
               <ul className="mt-6 divide-y">
-                {articles.map((a, i) => (
-                  <li key={i} className="py-6">
-                    <a href="#" className="block text-[#133B75] font-semibold hover:underline">
-                      {a.title}
-                    </a>
-                    <p className="text-sm text-gray-700 mt-1">{a.authors}</p>
-                    <div className="mt-3 flex items-center justify-between">
-                      <a href={a.pdfUrl} className="inline-flex items-center px-4 py-2 rounded bg-[#133B75] text-white text-sm">PDF</a>
-                      <span className="text-gray-600 text-sm">{a.pages}</span>
-                    </div>
-                  </li>
-                ))}
+                {filteredArticles.length > 0 ? (
+                  filteredArticles.map((a, i) => (
+                    <li key={i} className="py-6">
+                      <a
+                        href="#"
+                        className="block text-[#344d85] font-semibold hover:underline"
+                      >
+                        {a.title}
+                      </a>
+                      <p className="text-sm text-gray-700 mt-1">{a.authors}</p>
+                      <div className="mt-3 flex items-center justify-between">
+                        <a
+                          href={a.pdfUrl}
+                          className="inline-flex items-center px-4 py-2 rounded bg-[#344d85] text-white text-sm"
+                        >
+                          PDF
+                        </a>
+                        <span className="text-gray-600 text-sm">{a.pages}</span>
+                      </div>
+                    </li>
+                  ))
+                ) : (
+                  <p className="py-6 text-gray-500">No articles found</p>
+                )}
               </ul>
             </div>
           </div>
 
           <aside className="lg:col-span-1 space-y-6">
-            <div className="p-4 bg-white shadow border rounded">
-              <button className="w-full px-4 py-2 rounded bg-blue-600 text-white font-semibold">Make a Submission</button>
-            </div>
-            <div className="p-4 bg-white shadow border rounded">
-              <label htmlFor="searchAfl" className="block text-sm font-medium mb-2">Search AFL</label>
-              <input id="searchAfl" type="text" placeholder="Search AFL" className="w-full border rounded px-3 py-2 mb-3" />
-              <button className="px-4 py-2 rounded bg-blue-600 text-white">Search</button>
-            </div>
-            <div className="p-4 bg-white shadow border rounded text-sm">
-              <p className="font-semibold mb-2">Applied Finance Letters</p>
-              <p className="mt-1">Print ISSN: 2253-5799</p>
-              <p>Online ISSN: 2253-5802</p>
-              <p className="mt-3">Published by the Auckland Centre for Financial Research.</p>
-              <img src="/vite.svg" alt="Auckland Centre for Financial Research" className="h-10 w-auto mt-3" />
-            </div>
+            <Search onSearch={handleSearch}/>
           </aside>
         </div>
       </main>

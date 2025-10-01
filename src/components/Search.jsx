@@ -8,7 +8,6 @@ const nav=useNavigate();
   const handleSearch = () => {
     //  nav("/archives")
       onSearch(query)   
-   
   }
 
   return (
@@ -37,7 +36,7 @@ const nav=useNavigate();
         />
         <button
           type="button"
-          className="px-4 py-2 bg-[#344d85] text-white"
+          className="px-4 py-2 bg-[#344d85] text-white cursor-pointer rounded"
           onClick={handleSearch}
         >
           Search
