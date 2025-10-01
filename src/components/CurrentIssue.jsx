@@ -77,13 +77,13 @@ const CurrentIssue = () => {
         </ul>
         <div className="mt-8 flex flex-col sm:flex-row gap-4">
           <button
-            className="px-4 py-3 rounded-full border border-gray-300 bg-white text-gray-900 text-base font-bold hover:bg-gray-50 active:bg-gray-100 transition-all duration-200 transform hover:scale-105"
+            className="px-4 cursor-pointer py-3 rounded-full border border-gray-300 bg-white text-gray-900 text-base font-bold hover:bg-gray-50 active:bg-gray-100 transition-all duration-200 transform hover:scale-105"
             onClick={() => navigate('/current')}
           >
             View All Issues
           </button>
           <button
-            className="px-4 py-3 rounded-full bg-yellow-500 hover:bg-yellow-600 active:bg-yellow-700 text-gray-900 text-base font-bold transition-all duration-200 transform hover:scale-105"
+            className="px-4 py-3 cursor-pointer rounded-full bg-yellow-500 hover:bg-yellow-600 active:bg-yellow-700 text-gray-900 text-base font-bold transition-all duration-200 transform hover:scale-105"
             onClick={() => navigate('/submissions')}
           >
             Make a Submission
