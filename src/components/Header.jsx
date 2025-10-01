@@ -4,8 +4,9 @@ import { Link, useNavigate } from "react-router-dom";
 const Header = () => {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
-  const navigate = useNavigate();
   const [open, setOpen] = useState(false);
+  const navigate = useNavigate();
+
   useEffect(() => {
     const token = localStorage.getItem("token");
     setIsLoggedIn(!!token);
@@ -18,139 +19,146 @@ const Header = () => {
   };
 
   return (
-    <header>
-      {/* Top Right Login/Register or Logout */}
-      <div className="md:w-64 h-0 w-28"><img src="/Logo-1.svg" alt="ABDC Journal Quality List" /></div>
-      <div className="flex flex-row justify-end gap-3 py-2 px-4">
-        {!isLoggedIn ? (
-          <>
-            <Link
-              to="/register"
-              className="inline-flex items-center rounded-full px-4 py-1.5 text-sm font-semibold text-white bg-[#344d85] hover:bg-[#2a3f6b] active:bg-[#1f2f4f] shadow-sm transition-colors"
+    <header className="bg-gradient-to-r from-purple-900 to-purple-700 text-white shadow-lg rounded">
+      {/* Top Bar with Logo and Login/Logout */}
+      <div className="max-w-7xl mx-auto flex items-center justify-between md:px-4 py-3 sm:px-6 lg:px-8 p-2">
+        <div className="flex items-center bg-white/90 rounded-md p-2">
+          <img src="/Logo-1.svg" alt="ABDC Journal Quality List" className="h-12 w-auto sm:h-14" />
+        </div>
+        <div className="flex items-center gap-3">
+          {!isLoggedIn ? (
+            <>
+              <Link
+                to="/register"
+                className="inline-flex items-center rounded-full px-2 py-2 ml-2 text-base font-bold bg-yellow-500 hover:bg-yellow-600 active:bg-yellow-700 text-gray-900 transition-all duration-200 ease-in-out transform hover:scale-105"
+              >
+                Register
+              </Link>
+              <Link
+                to="/login"
+                className="inline-flex items-center rounded-full px-4 py-2 text-base font-bold bg-purple-50 text-purple-800 hover:bg-purple-100 active:bg-purple-200 border border-purple-200 transition-all duration-200 ease-in-out transform hover:scale-105"
+              >
+                Login
+              </Link>
+            </>
+          ) : (
+            <button
+              onClick={handleLogout}
+              className="inline-flex items-center rounded-full px-4 py-2 text-base font-bold bg-yellow-500 hover:bg-yellow-600 active:bg-yellow-700 text-gray-900 transition-all duration-200 ease-in-out transform hover:scale-105"
             >
-              Register
-            </Link>
-            <Link
-              to="/login"
-              className="inline-flex items-center rounded-full px-4 py-1.5 text-sm font-semibold text-[#344d85] bg-blue-50 hover:bg-blue-100 active:bg-blue-200 border border-blue-200 shadow-sm transition-colors"
-            >
-              Login
-            </Link>
-          </>
-        ) : (
-          <button
-            onClick={handleLogout}
-            className="inline-flex items-center rounded-full px-4 py-1.5 text-sm font-semibold text-white bg-red-500 hover:bg-red-600 shadow-sm transition-colors"
-          >
-            Logout
-          </button>
-        )}
-      </div>
-
-      {/* Logo */}
-      < div className="max-w-[1100px] mx-auto flex items-center justify-between py-4 px-4">
-        {/* <Link to="/" className="flex items-center gap-3">
-          <img
-            src="/logo.jpg"
-            alt="Page Header Logo"
-            className="h-16 sm:h-20 md:h-100 w-auto object-contain"
-          />
-        </Link> */}
-
-
-        {/* Hamburger button for mobile */}
-        <button
-          className="lg:hidden flex items-center px-3 py-2 border rounded text-gray-700 border-gray-400 hover:text-white hover:bg-[#344d85]"
-          onClick={() => setMenuOpen(!menuOpen)}
-        >
-          <svg className="fill-current h-6 w-6" viewBox="0 0 20 20">
-            <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
-          </svg>
-        </button>
+              Logout
+            </button>
+          )}
+        </div>
       </div>
 
       {/* Navigation */}
-      <div
-        className={`bg-white shadow-md lg:shadow-none ${
-          menuOpen ? "block" : "hidden"
-        } lg:block`}
-      >
-        <div className="max-w-[1100px] mx-auto py-4 lg:flex justify-center px-4 lg:px-0">
-          <nav className="flex flex-col lg:flex-row gap-2 lg:gap-10 text-base font-medium">
-            <Link to="/" className="px-4 py-2 rounded-lg text-gray-700 hover:text-white hover:bg-[#344d85] transition-colors duration-300 select-none"> Home</Link>
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="flex items-center justify-between py-4">
+          {/* Hamburger button for mobile */}
+          <button
+            className="lg:hidden p-2 rounded-md text-white hover:bg-purple-800 focus:outline-none focus:ring-2 focus:ring-yellow-500 transition-colors duration-200"
+            onClick={() => setMenuOpen(!menuOpen)}
+          >
+            <svg className="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d={menuOpen ? "M6 18L18 6M6 6l12 12" : "M4 6h16M4 12h16M4 18h16"}
+              />
+            </svg>
+          </button>
+        </div>
+
+        {/* Navigation Links */}
+        <nav
+          className={`${
+            menuOpen ? "block" : "hidden"
+          } lg:flex lg:items-center lg:gap-8 pb-4 lg:pb-0 transition-all duration-300 ease-in-out`}
+        >
+          <div className="flex flex-col lg:flex-row gap-3 lg:gap-8 text-base font-bold">
+            <Link
+              to="/"
+              className="px-4 py-2 rounded-lg hover:bg-yellow-500 hover:text-gray-900 transition-all duration-200 ease-in-out transform hover:scale-105"
+            >
+              Home
+            </Link>
             <Link
               to="/editorial-team"
-              className="px-4 py-2 rounded-lg text-gray-700 hover:text-white hover:bg-[#344d85] transition-colors duration-300 select-none"
+              className="px-4 py-2 rounded-lg hover:bg-yellow-500 hover:text-gray-900 transition-all duration-200 ease-in-out transform hover:scale-105"
             >
               Editorial Team
             </Link>
             <Link
               to="/current"
-              className="px-4 py-2 rounded-lg text-gray-700 hover:text-white hover:bg-[#344d85] transition-colors duration-300 select-none"
+              className="px-4 py-2 rounded-lg hover:bg-yellow-500 hover:text-gray-900 transition-all duration-200 ease-in-out transform hover:scale-105"
             >
               Current
             </Link>
             <Link
               to="/archives"
-              className="px-4 py-2 rounded-lg text-gray-700 hover:text-white hover:bg-[#344d85] transition-colors duration-300 select-none"
+              className="px-4 py-2 rounded-lg hover:bg-yellow-500 hover:text-gray-900 transition-all duration-200 ease-in-out transform hover:scale-105"
             >
               Archives
             </Link>
             <Link
               to="/announcements"
-              className="px-4 py-2 rounded-lg text-gray-700 hover:text-white hover:bg-[#344d85] transition-colors duration-300 select-none"
+              className="px-4 py-2 rounded-lg hover:bg-yellow-500 hover:text-gray-900 transition-all duration-200 ease-in-out transform hover:scale-105"
             >
               Announcements
             </Link>
-            <div className="relative lg:group">
-      {/* About Button */}
-      <button
-        onClick={() => setOpen(!open)}
-        className="px-4 py-2 rounded-lg text-gray-700 hover:text-white hover:bg-[#344d85] transition-colors duration-300 select-none"
-      >
-        About
-      </button>
+            <div className="relative">
+              {/* About Button */}
+              <button
+                onClick={() => setOpen(!open)}
+                className="px-4 py-2 cursor-pointer rounded-lg hover:bg-yellow-500 hover:text-gray-900 transition-all duration-200 ease-in-out transform hover:scale-105 flex items-center"
+              >
+                About
+                <svg
+                  className={`ml-2 h-4 w-4 transform transition-transform duration-200 ${open ? "rotate-180" : ""}`}
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7" />
+                </svg>
+              </button>
 
-      {/* Dropdown Menu */}
-      <div
-        className={`
-          ${open ? "block" : "hidden"} 
-          lg:group-hover:block 
-          lg:absolute lg:top-full lg:left-0 
-          mt-1 lg:w-64 w-full 
-          bg-white border rounded-lg shadow-lg 
-          transition-all duration-200 z-50
-        `}
-      >
-        <Link
-          to="/about"
-          className="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-700 transition-colors"
-        >
-          About the Journal
-        </Link>
-        <Link
-          to="/about"
-          className="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-700 transition-colors"
-        >
-          Publication Ethics and Publication Malpractice Statements
-        </Link>
-        <Link
-          to="/submissions"
-          className="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-700 transition-colors"
-        >
-          Submissions
-        </Link>
-        <Link
-          to="/contact"
-          className="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-700 transition-colors"
-        >
-          Contact
-        </Link>
-      </div>
-    </div>
-
-          </nav>
-        </div>
+              {/* Dropdown Menu */}
+              <div
+                className={`${
+                  open ? "block" : "hidden"
+                } lg:absolute lg:top-full lg:left-0 mt-2 w-full lg:w-64 bg-white text-gray-800 border border-gray-200 rounded-lg shadow-xl transition-all duration-300 ease-in-out z-50`}
+              >
+                <Link
+                  to="/about"
+                  className="block px-4 py-2 text-sm font-bold hover:bg-purple-50 hover:text-purple-800 transition-colors duration-200"
+                >
+                  About the Journal
+                </Link>
+                <Link
+                  to="/about"
+                  className="block px-4 py-2 text-sm font-bold hover:bg-purple-50 hover:text-purple-800 transition-colors duration-200"
+                >
+                  Publication Ethics
+                </Link>
+                <Link
+                  to="/submissions"
+                  className="block px-4 py-2 text-sm font-bold hover:bg-purple-50 hover:text-purple-800 transition-colors duration-200"
+                >
+                  Submissions
+                </Link>
+                <Link
+                  to="/contact"
+                  className="block px-4 py-2 text-sm font-bold hover:bg-purple-50 hover:text-purple-800 transition-colors duration-200"
+                >
+                  Contact
+                </Link>
+              </div>
+            </div>
+          </div>
+        </nav>
       </div>
     </header>
   );
