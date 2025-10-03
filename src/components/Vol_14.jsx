@@ -12,16 +12,16 @@ const articlesData = [
     pdfUrl: '/vol-14/1.pdf',
   },
   {
-    title: 'Tribological Properties and Biocompatibility Studies of PEEK and Its Composites',
-    authors: 'Moinuddin S K, Syed Zameer, Kotresh U, Kari Ramakrishna, Mohammed Mohsin Ali H (Author)',
+    title: 'Finite Element Analysis And Experimental Validation Of Fiber-Reinforced Polymer Composites Under Flexural Loading',
+    authors: 'Dr. Devendra Pratap Singh1, Dr. Pradeep A R2, Laxman Baburao Abhang3, Dr. Brijesh Shankarrao Deshmukh4, Anil Kumar5, Nilesh Baburao Landge6',
     pages: '1312-1328',
     pdfUrl: '/vol-14/2.pdf',
   },
   {
     title:
-      'Chemical Profiling, Antioxidant Potential, Molecular Docking And Molecular Dynamic Simulation Of Essential Oil Constituents Of Four Curcuma Species',
+      'AI-Enhanced Blockchain Frameworks For Circular Economy: Driving Transparency In Waste Management And Resource Recovery ',
     authors:
-      'Ayushman Gadnayak, Ananya Nayak, Swagat Mohanty, Ambika Sahoo, Sudipta Jena, Pratap Chandra Panda, Asit Ray, Sanghamitra Nayak (Author)',
+      'Dr.Gumpina Babu Rao1, Dr.C.John Paul2, Rahul Laxman Pawar3, Dr.Roopa Jayasingh.J4, Dr.Sumit Kushwaha',
     pages: '1329-1341',
     pdfUrl: '/vol-14/3.pdf',
   },

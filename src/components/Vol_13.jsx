@@ -44,9 +44,9 @@ const articlesData = [
     pdfUrl: '/vol-13/6.pdf',
   },
   {
-    title: 'Development And Optimization Of Gold Nanoparticle Synthesis From Bauhinia Purpurea Extracts',
-    authors: 'A. Meena, R. Senthilraj (Author)',
-    pages: '750-764',
+    title: 'Formulation And Evaluation Of Buccal Disintegrating Tablet Containing Anticonvulsant Drug ',
+    authors: 'Akshay M. Akotkar1, Dr. Nidhi Bais2, Dr. Sachin Jain3',
+    pages: '750-765',
     pdfUrl: '/vol-13/7.pdf',
   },
   {
