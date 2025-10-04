@@ -25,8 +25,8 @@ const articlesData = [
     pdfUrl: '/vol-11/3.pdf',
   },
   {
-    title: 'Degenerative Cervical Myelopathy: A Literature Review',
-    authors: 'Mohammed Khaled M. Ahmed, Elsayed Said, Hamdy Tammam (Author)',
+    title: 'A Study To Assess Level of Visual Acuity(VA) among patients with Type-II Diabetes Mellitus in selected villages under Rural Heath and Training Centre, Vayalanallur',
+    authors: 'Dr. Poongodi Ramalingam1, M.Sumathi2 and Dr. Aruna Subramaniam',
     pages: '19-25',
     pdfUrl: '/vol-11/4.pdf',
   },
