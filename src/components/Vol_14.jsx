@@ -6,47 +6,39 @@ import Search from './Search';
 const articlesData = [
   {
     title: 'Sustainable Housing And Social Equity In Rapidly Urbanizing Regions',
+    authors: 'Dr. Franklin John Selvaraj1, Dr. Rishi2, Dr. Sunanda I. Kittali3, Dr. Saurabh Chandra4, Sreedevi5,Akansh Garg6',
+    pages: '1-11',
+    pdfUrl: '/Env/1.pdf',
+  },
+  {
+    title: 'Hooked on Hearts: The Role of Social Media Validation in Behavioral Addiction ',
     authors:
-      'Dr. Franklin John Selvaraj, Dr. Rishi, Dr. Sunanda I. Kittali, Dr. Saurabh Chandra, Sreedevi, Akansh Garg (Author)',
-    pages: '1-10',
+      'Payal Jain1, Tehseen Saleem2',
+    pages: '1-8',
     pdfUrl: '/vol-14/1.pdf',
   },
   {
-    title: 'Finite Element Analysis And Experimental Validation Of Fiber-Reinforced Polymer Composites Under Flexural Loading',
-    authors: 'Dr. Devendra Pratap Singh1, Dr. Pradeep A R2, Laxman Baburao Abhang3, Dr. Brijesh Shankarrao Deshmukh4, Anil Kumar5, Nilesh Baburao Landge6',
-    pages: '1312-1328',
+    title: 'A Study On The Effects Of Social Pressure And Personal Control On E-Commerce Adoption ',
+    authors: 'Ms. Shakti Shukla1, Deepti Mehlawat2, Dr Anita Singh3, Dr Anubha Vashisht4, Dr Uma5',
+    pages: '9-18',
     pdfUrl: '/vol-14/2.pdf',
   },
   {
-    title:
-      'AI-Enhanced Blockchain Frameworks For Circular Economy: Driving Transparency In Waste Management And Resource Recovery ',
+    title:'A Prospective Comparative Study Of Proximal Femoral Nailing And Bipolar Hemiarthroplasty In Comminuted Intertrochanteric Fractures',
     authors:
-      'Dr.Gumpina Babu Rao1, Dr.C.John Paul2, Rahul Laxman Pawar3, Dr.Roopa Jayasingh.J4, Dr.Sumit Kushwaha',
+      '1Dr. Chethan Gowda M, 2Dr. Mahesh D V, 3Dr.Rajeevratna Suresh Naik, 4Dr. Vineeth K S',
     pages: '1329-1341',
     pdfUrl: '/vol-14/3.pdf',
   },
   {
-    title: 'Hooked on Hearts: The Role of Social Media Validation in Behavioral Addiction',
-    authors: 'Payal Jain, Tehseen Saleem (Author)',
-    pages: '1342-1348',
-    pdfUrl: '/vol-14/4.pdf',
+    title: 'Progressive Bilateral Visual Loss Due To Vincristine Induced Optic Neuropathy ',
+    authors: 'Dr Nila C A1, Dr Latha M Sneha2, Dr Roja Raj3, Mr Selvaseelan ',
+    pages: '12-17',
+    pdfUrl: '/Env/2.pdf',
   },
   {
-    title: 'A Study On The Effects Of Social Pressure And Personal Control On E-Commerce Adoption',
-    authors: 'Ms. Shakti Shukla, Deepti Mehlawat, Dr Anita Singh, Dr Anubha Vashisht, Dr Uma (Author)',
-    pages: '1349-1357',
-    pdfUrl: '/vol-14/5.pdf',
-  },
-  {
-    title:
-      'A Prospective Comparative Study Of Proximal Femoral Nailing And Bipolar Hemiarthroplasty In Comminuted Intertrochanteric Fractures',
-    authors: 'Dr. Chethan Gowda M, Dr. Mahesh D V, Dr.Rajeevratna Suresh Naik, Dr. Vineeth K S (Author)',
-    pages: '1358-1363',
-    pdfUrl: '/vol-14/6.pdf',
-  },
-  {
-    title: 'Study The Efficacy of Chatuhsama Yoga in Ama Atisara in Children',
-    authors: 'Dr. Sneha Solapure, Dr. Preetham pai (Author)',
+    title: 'A Study On Work Life Balance Of Women School Teacher’s Working In Private Schools In Chennai ',
+    authors: 'Dr. R. Rethina Bai., Head1, Mrs. K. Hemalatha2 ',
     pages: '1358-1363',
     pdfUrl: '/vol-14/7.pdf',
   },
@@ -55,7 +47,7 @@ const articlesData = [
       'An Observational Study on the Therapeutic Application of Raktamokshana by Ayurvedic Practitioners in Pune City',
     authors: 'Dr. Shrutee Diliprao Lad, Dr. Madhuri P. Bhide, Dr. Swapnil J. Biradar Patil (Author)',
     pages: '1364-1369',
-    pdfUrl: '/vol-14/8.pdf',
+    pdfUrl: '/vol-14/5.pdf',
   },
 ];
 
