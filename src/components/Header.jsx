@@ -29,7 +29,7 @@ const Header = () => {
       {/* Top Bar with Logo and Login/Logout (Desktop) */}
       <div className="max-w-7xl mx-auto flex items-center justify-between px-4 sm:px-6 lg:px-8 py-3">
         <div className="flex items-center rounded-md p-1">
-          <img src="/logo_a.png" alt="Logo applied finance" className="md:h-24 h-24 w-38 rounded-2xl" />
+          <img src="/logo_a.png" alt="Logo applied finance" className="md:h-20 h-20 w-48 rounded-2xl" />
         </div>
         <div className="hidden lg:flex items-center gap-3">
           {!isLoggedIn ? (
