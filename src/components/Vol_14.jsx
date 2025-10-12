@@ -92,6 +92,7 @@ const Vol_14 = () => {
                     >
                       <a
                         href={article.pdfUrl}
+                        target="_blank"
                         className="block text-lg font-bold text-purple-700 hover:text-purple-800 hover:underline transition-colors duration-200"
                       >
                         {article.title}

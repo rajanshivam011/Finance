@@ -30,12 +30,12 @@ const articlesData = [
     pages: '44-49',
     pdfUrl: '/vol-12/4.pdf',
   },
-  {
-    title: 'Progressive Bilateral Visual Loss Due To Vincristine Induced Optic Neuropathy ',
-    authors: 'Dr Nila C A1, Dr Latha M Sneha2, Dr Roja Raj3, Mr Selvaseelan4',
-    pages: '50-64',
-    pdfUrl: '/vol-12/5.pdf',
-  },
+  // {
+  //   title: 'Progressive Bilateral Visual Loss Due To Vincristine Induced Optic Neuropathy ',
+  //   authors: 'Dr Nila C A1, Dr Latha M Sneha2, Dr Roja Raj3, Mr Selvaseelan4',
+  //   pages: '50-64',
+  //   pdfUrl: '/vol-12/5.pdf',
+  // },
   {
     title: 'Green Computing: Advancing Energy-Efficient Data Centers With AI',
     authors:
