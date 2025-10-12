@@ -72,7 +72,7 @@ const Vol_14 = () => {
               Vol. 14 (2025)
             </h1>
             <p className="mt-2 text-base text-gray-700">
-              <span className="font-semibold">Published:</span> 2025-05-21
+              <span className="font-semibold">Published:</span> 2025-02-02
             </p>
 
             <div className="mt-8">

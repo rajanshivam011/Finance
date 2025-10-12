@@ -31,8 +31,8 @@ const articlesData = [
     pdfUrl: '/vol-12/4.pdf',
   },
   {
-    title: 'Audit Quality and Financial Reporting Fraud: The Interaction of Standards, Governance, and Managerial Integrity',
-    authors: 'Payamta, Agus Dwianto, Gehad Mohammed Sultan Saif (Author)',
+    title: 'Progressive Bilateral Visual Loss Due To Vincristine Induced Optic Neuropathy ',
+    authors: 'Dr Nila C A1, Dr Latha M Sneha2, Dr Roja Raj3, Mr Selvaseelan4',
     pages: '50-64',
     pdfUrl: '/vol-12/5.pdf',
   },
@@ -96,10 +96,10 @@ const Vol_12 = () => {
           {/* Main Content */}
           <div className="lg:col-span-2 space-y-8">
             <h1 className="text-4xl sm:text-5xl font-bold text-purple-900 tracking-tight">
-              Vol. 12 (2024)
+              Vol. 12 (2023)
             </h1>
             <p className="mt-2 text-base text-gray-700">
-              <span className="font-semibold">Published:</span> 2024-05-21
+              <span className="font-semibold">Published:</span> 2023-07-14
             </p>
 
             <div className="mt-8">

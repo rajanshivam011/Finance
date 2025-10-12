@@ -56,10 +56,10 @@ const Vol_11 = () => {
           {/* Main Content */}
           <div className="lg:col-span-2 space-y-8">
             <h1 className="text-4xl sm:text-5xl font-bold text-purple-900 tracking-tight">
-              Vol. 11 (2024)
+              Vol. 11 (2022)
             </h1>
             <p className="mt-2 text-base text-gray-700">
-              <span className="font-semibold">Published:</span> 2024-05-21
+              <span className="font-semibold">Published:</span> 2022-03-05
             </p>
 
             <div className="mt-8">
