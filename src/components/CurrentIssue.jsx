@@ -3,6 +3,13 @@ import { useNavigate } from 'react-router-dom';
 
 const articles = [
   {
+    title:
+      'Agentic AI for Autonomous CI/CD: Towards Self-Adaptive Financial Infrastructure Pipelines',
+    authors: '1st Avinash Reddy Segireddy',
+    pages: '9',
+    pdfUrl: '/vol-14/9.pdf',
+  },
+  {
     title: 'Sustainable Housing And Social Equity In Rapidly Urbanizing Regions',
     authors: 'Dr. Franklin John Selvaraj1, Dr. Rishi2, Dr. Sunanda I. Kittali3, Dr. Saurabh Chandra4, Sreedevi5,Akansh Garg6',
     pages: '1-11',
@@ -58,6 +65,7 @@ const CurrentIssue = () => {
             >
               <a
                 href={article.pdfUrl}
+                target="_blank"
                 className="block text-lg font-bold text-purple-700 hover:text-purple-800 hover:underline transition-colors duration-200"
               >
                 {article.title}
@@ -66,6 +74,7 @@ const CurrentIssue = () => {
               <div className="mt-4 flex items-center justify-between">
                 <a
                   href={article.pdfUrl}
+                  target="_blank"
                   className="inline-flex items-center px-4 py-2 rounded-full bg-yellow-500 hover:bg-yellow-600 active:bg-yellow-700 text-gray-900 text-base font-bold transition-all duration-200 transform hover:scale-105"
                 >
                   PDF

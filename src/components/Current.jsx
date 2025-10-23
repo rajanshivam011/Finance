@@ -5,6 +5,13 @@ import Search from './Search';
 
 const articles = [
   {
+    title:
+      'Agentic AI for Autonomous CI/CD: Towards Self-Adaptive Financial Infrastructure Pipelines',
+    authors: '1st Avinash Reddy Segireddy',
+    pages: '9',
+    pdfUrl: '/vol-14/9.pdf',
+  },
+  {
     title: 'Sustainable Housing And Social Equity In Rapidly Urbanizing Regions',
     authors: 'Dr. Franklin John Selvaraj1, Dr. Rishi2, Dr. Sunanda I. Kittali3, Dr. Saurabh Chandra4, Sreedevi5,Akansh Garg6',
     pages: '1-11',

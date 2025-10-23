@@ -5,50 +5,58 @@ import Search from './Search';
 
 const articlesData = [
   {
+    title:
+      'Agentic AI for Autonomous CI/CD: Towards Self-Adaptive Financial Infrastructure Pipelines',
+    authors: '1st Avinash Reddy Segireddy',
+    pages: '9',
+    pdfUrl: '/vol-14/9.pdf',
+  },
+  {
     title: 'Sustainable Housing And Social Equity In Rapidly Urbanizing Regions',
     authors: 'Dr. Franklin John Selvaraj1, Dr. Rishi2, Dr. Sunanda I. Kittali3, Dr. Saurabh Chandra4, Sreedevi5,Akansh Garg6',
-    pages: '1-11',
+    pages: '11',
     pdfUrl: '/Env/1.pdf',
   },
   {
     title: 'Hooked on Hearts: The Role of Social Media Validation in Behavioral Addiction ',
     authors:
       'Payal Jain1, Tehseen Saleem2',
-    pages: '1-8',
+    pages: '8',
     pdfUrl: '/vol-14/1.pdf',
   },
   {
     title: 'A Study On The Effects Of Social Pressure And Personal Control On E-Commerce Adoption ',
     authors: 'Ms. Shakti Shukla1, Deepti Mehlawat2, Dr Anita Singh3, Dr Anubha Vashisht4, Dr Uma5',
-    pages: '9-18',
+    pages: '10',
     pdfUrl: '/vol-14/2.pdf',
   },
   {
     title:'A Prospective Comparative Study Of Proximal Femoral Nailing And Bipolar Hemiarthroplasty In Comminuted Intertrochanteric Fractures',
     authors:
       '1Dr. Chethan Gowda M, 2Dr. Mahesh D V, 3Dr.Rajeevratna Suresh Naik, 4Dr. Vineeth K S',
-    pages: '1329-1341',
+    pages: '7',
     pdfUrl: '/vol-14/3.pdf',
   },
   {
     title: 'Progressive Bilateral Visual Loss Due To Vincristine Induced Optic Neuropathy ',
     authors: 'Dr Nila C A1, Dr Latha M Sneha2, Dr Roja Raj3, Mr Selvaseelan ',
-    pages: '12-17',
+    pages: '6',
     pdfUrl: '/Env/2.pdf',
   },
   {
     title: 'A Study On Work Life Balance Of Women School Teacher’s Working In Private Schools In Chennai ',
     authors: 'Dr. R. Rethina Bai., Head1, Mrs. K. Hemalatha2 ',
-    pages: '1358-1363',
+    pages: '10',
     pdfUrl: '/vol-14/7.pdf',
   },
   {
     title:
       'An Observational Study on the Therapeutic Application of Raktamokshana by Ayurvedic Practitioners in Pune City',
     authors: 'Dr. Shrutee Diliprao Lad, Dr. Madhuri P. Bhide, Dr. Swapnil J. Biradar Patil (Author)',
-    pages: '1364-1369',
+    pages: '6',
     pdfUrl: '/vol-14/5.pdf',
   },
+  
 ];
 
 const Vol_14 = () => {
