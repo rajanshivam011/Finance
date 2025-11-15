@@ -9,8 +9,7 @@ const articles = [
   pdfUrl: '/vol-14/10.pdf',
 },
   {
-    title:
-      'Agentic AI for Autonomous CI/CD: Towards Self-Adaptive Financial Infrastructure Pipelines',
+    title: 'Agentic AI for Autonomous CI/CD: Towards Self-Adaptive Financial Infrastructure Pipelines',
     authors: '1st Avinash Reddy Segireddy',
     pages: '9',
     pdfUrl: '/vol-14/9.pdf',
