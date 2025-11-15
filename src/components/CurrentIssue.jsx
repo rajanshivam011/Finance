@@ -3,6 +3,12 @@ import { useNavigate } from 'react-router-dom';
 
 const articles = [
   {
+  title: 'Exploring the Evolution of FinTech and Technology Acceptance: Bibliometric Analysis of Research Trends and Future Gaps',
+  authors: 'Dr. Rachna Jain, Dr. Shikha Sharma',
+  pages: '1-23',
+  pdfUrl: '/vol-14/10.pdf',
+},
+  {
     title:
       'Agentic AI for Autonomous CI/CD: Towards Self-Adaptive Financial Infrastructure Pipelines',
     authors: '1st Avinash Reddy Segireddy',
