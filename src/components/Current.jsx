@@ -4,6 +4,12 @@ import Footer from './Footer';
 import Search from './Search';
 
 const articles = [
+   {
+  title: 'Green Bonds and Climate Finance: Market Trends and Investor Behavior',
+  authors: 'Aadya Jakhmola',
+  pages: '1-9',
+  pdfUrl: '/vol-14/11.pdf',
+},
   {
   title: 'Exploring the Evolution of FinTech and Technology Acceptance: Bibliometric Analysis of Research Trends and Future Gaps',
   authors: 'Dr. Rachna Jain, Dr. Shikha Sharma',
