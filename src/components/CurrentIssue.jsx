@@ -9,9 +9,9 @@ const articles = [
   pdfUrl: '/vol-14/13.pdf',
 },
   {
-  title: 'Green Bonds and Climate Finance: Market Trends and Investor Behavior',
-  authors: 'Dr. R. Krishna Vardhan Reddy, Dr. B. Anjan Kumar, Dr K Kiran Kumar, Dr SSREEKANTH',
-  pages: '1-8',
+  title: 'Behavioural Biases in Retail Investing: Insights from Post-Pandemic Trading Patterns',
+  authors: 'Dr.PALADUGU YADAIAH, Dr.Putti Selvara',
+  pages: '1-9',
   pdfUrl: '/vol-14/12.pdf',
 },
   {
