@@ -4,6 +4,18 @@ import { useNavigate } from 'react-router-dom';
 const articles = [
   {
   title: 'Green Bonds and Climate Finance: Market Trends and Investor Behavior',
+  authors: 'Dr. R. Krishna Vardhan Reddy, Dr. B. Anjan Kumar, Dr K Kiran Kumar, Dr SSREEKANTH',
+  pages: '1-8',
+  pdfUrl: '/vol-14/13.pdf',
+},
+  {
+  title: 'Green Bonds and Climate Finance: Market Trends and Investor Behavior',
+  authors: 'Dr. R. Krishna Vardhan Reddy, Dr. B. Anjan Kumar, Dr K Kiran Kumar, Dr SSREEKANTH',
+  pages: '1-8',
+  pdfUrl: '/vol-14/12.pdf',
+},
+  {
+  title: 'Green Bonds and Climate Finance: Market Trends and Investor Behavior',
   authors: 'Aadya Jakhmola',
   pages: '1-9',
   pdfUrl: '/vol-14/11.pdf',
