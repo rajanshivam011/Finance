@@ -3,15 +3,27 @@ import { useNavigate } from 'react-router-dom';
 
 const articles = [
   {
+  title: 'Cryptocurrency Market Spillovers: Risk Contagion Across Global Financial Systems',
+  authors: 'Dr. Hardeep Singh, Dr. Debanjalee Bose, Appa Rao Nagubandi, S. Prabhu, Shrikanta Ganapati Naik',
+  pages: '70-80',
+  pdfUrl: '/vol-14/15.pdf',
+},
+  {
+  title: 'ESG Investments and Firm Value: A Global Comparative Study',
+  authors: 'Dhiraj Sharma, Sumit Kushwaha , Ashish Gupta , DR. POONAM',
+  pages: '60-69',
+  pdfUrl: '/vol-14/14.pdf',
+},
+  {
   title: 'Green Bonds and Climate Finance: Market Trends and Investor Behavior',
   authors: 'Dr. R. Krishna Vardhan Reddy, Dr. B. Anjan Kumar, Dr K. Kiran Kumar, Dr S. Sreekanth',
-  pages: '51-58',
+  pages: '52-59',
   pdfUrl: '/vol-14/13.pdf',
 },
   {
   title: 'Behavioural Biases in Retail Investing: Insights from Post-Pandemic Trading Patterns',
   authors: 'Dr.Paladugu Yadaiah, Dr.Putti Selvaraj',
-  pages: '42-50',
+  pages: '42-51',
   pdfUrl: '/vol-14/12.pdf',
 },
   {
