@@ -15,7 +15,7 @@ const articles = [
   pdfUrl: '/vol-14/14.pdf',
 },
   {
-  title: 'Green Bonds and Climate Finance: Market Trends and Investor Behavior',
+  title: 'Investor Behavior and Market Trends in the Global Green Bond and Climate Finance Landscape',
   authors: 'Dr. R. Krishna Vardhan Reddy, Dr. B. Anjan Kumar, Dr K. Kiran Kumar, Dr S. Sreekanth',
   pages: '52-59',
   pdfUrl: '/vol-14/13.pdf',
